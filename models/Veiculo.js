@@ -2,6 +2,7 @@ const Comentario = require('./Comentario');
 const db = require('./db');
 
 const Veiculo = db.sequelize.define('veiculos', {
+    
     id: {
         type: db.Sequelize.INTEGER,
         primaryKey: true,
